@@ -80,3 +80,132 @@ footer p {
     border-top: 8px solid #4aaaa5;
     margin: 0 auto;
 }
+
+
+/* ---------------------------- Portfolio Page --------------------------- */
+
+h3 {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 10px;
+}
+
+h3:hover {
+    background-color: #DD524A;
+}
+
+.project1 {
+    background: url(../assets/balm_big.jpg) center no-repeat;
+    background-size: 250px 200px;
+    height:200px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 30px 20px;
+}
+
+.project2 {
+    background: url(../assets/album_zoomed.jpg) center no-repeat;
+    background-size: 250px 200px;
+    height:200px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 30px 20px;
+}
+
+.project3 {
+    background: url(../assets/character.jpg) center no-repeat;
+    background-size: 250px 200px;
+    height:200px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 30px 20px;
+}
+
+.project4 {
+    background: url(../assets/kubrick_cover_image.jpg) center no-repeat;
+    background-size: 250px 200px;
+    height:200px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 30px 20px;
+}
+
+.project5 {
+    background: url(../assets/tickets2_desktop.jpg) center no-repeat;
+    background-size: 250px 200px;
+    height:200px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 30px 20px;
+}
+
+.project6 {
+    background: url(../assets/zeen_full_cropped.jpg) center no-repeat;
+    background-size: 250px 200px;
+    height:200px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 30px 20px;
+}
+
+/* --------------------------------- Contact Page ----------------------------------- */
+form {
+    width: 100%;
+}
+/* ------------------------- Media Queries ------------------------------- */
+
+@media only screen and (max-width: 575px) {
+
+.project1, .project2, .project3, .project4, .project5, .project6 {
+    width: 100%;
+    padding-top: 300px;
+    background-size: auto;
+    margin: 0 auto;
+}
+
+.grid-container {
+    margin: 20px 10px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+    .project1, .project2, .project3, .project4, .project5, .project6 {
+        margin: 30px 0;
+}
+    .image-padding {
+        padding-left: 0px;
+    }
+
+}
